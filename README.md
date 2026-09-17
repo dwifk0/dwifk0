@@ -16,7 +16,8 @@ ve FRC.
 ## Neler yaptım
 
 ### 🚜 LYDİA — Otonom Kara Aracı · TEKNOFEST 2026 **finalist**
-**MCBÜ MAGNESIA** · Gömülü Sistemler ve Donanım Entegrasyon Sorumlusu
+**MCBÜ MAGNESİA** · Gömülü Sistemler ve Donanım Entegrasyon Sorumlusu
+→ **[`IKA-MAGNESIA-LYDIA`](https://github.com/dwifk0/IKA-MAGNESIA-LYDIA)**
 
 48 V'luk aracın **bütün sürüş ve sensör yazılımını tek bir STM32F767ZI'de**
 topladım: kumanda, gaz, fren, direksiyon, geri vites, güç kesme. Jetson Orin
