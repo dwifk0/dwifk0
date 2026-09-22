@@ -1,0 +1,102 @@
+Telif Hakkı (c) 2026 Ahmet Efe Nezli (dwifk0). Tüm hakları saklıdır.
+Copyright (c) 2026 Ahmet Efe Nezli (dwifk0). All rights reserved.
+
+TÜRKÇE
+================================================================================
+
+Bu depodaki kaynak kod, gömülü yazılım, donanım tasarımları, çizimler, CAD ve
+STL dosyaları, belgeler, eğitilmiş modeller ve veri kümeleri ("Eser") aşağıda
+ve NOTICE dosyasında ayrıca belirtilen üçüncü taraf bileşenler dışında yukarıda
+adı geçen telif hakkı sahibine aittir.
+
+1. İZİNSİZ YAPILABİLENLER
+   a) Depo herkese açıksa Eser'i GitHub üzerinde görüntülemek ve GitHub'ın
+      hizmet şartlarının zorunlu kıldığı ölçüde GitHub içinde çatallamak (fork);
+   b) Eser'i okuyarak öğrenmek, incelemek, eleştirmek;
+   c) kaynak gösterilerek, yasanın izin verdiği ölçüde kısa alıntı yapmak.
+
+2. YAZILI İZİN OLMADAN YAPILAMAYANLAR
+   Eser'in tamamı veya bir bölümü:
+   a) kopyalanamaz, indirilip başka bir yerde saklanamaz, çoğaltılamaz;
+   b) kullanılamaz, derlenemez, çalıştırılamaz, bir karta yüklenemez;
+   c) değiştirilemez, başka bir projeye, dile veya platforma taşınamaz,
+      türev çalışma üretilemez;
+   d) dağıtılamaz, yayımlanamaz, satılamaz, üçüncü kişilere iletilemez;
+   e) bir yapay zekâ modelinin eğitiminde veri olarak kullanılamaz.
+
+3. YAPAY ZEKÂ İLE ATLATMA
+   Eser'in bir yapay zekâ aracına verilerek yeniden yazdırılması, başka bir
+   dile çevrilmesi, "sıfırdan" yeniden üretilmesi veya parça parça
+   aktarılması 2. maddedeki kısıtları kaldırmaz; telif hakkı sahibi bu yolla
+   üretilen çıktıyı Eser'in türev çalışması sayar. Yapay zekâ araçlarına
+   yönelik not YAPAY_ZEKA.md dosyasındadır.
+
+4. ERİŞİM İZİN DEĞİLDİR
+   Eser'e herhangi bir yolla (depo erişimi, cihaz, yedek, ekran görüntüsü,
+   paylaşılan dosya) erişmiş olmak kullanım hakkı vermez. Ekip üyeliği, ortak
+   proje, yarışma katılımı veya işveren/işgören ilişkisi de tek başına bu
+   hakkı doğurmaz.
+
+5. İZİN NASIL ALINIR
+   İzin yalnızca telif hakkı sahibinin imzaladığı bir İZİN dosyasıyla verilir
+   (biçimi: IZIN_SABLONU.md). İzin dosyasında adı geçen kişiyi, dosyaları,
+   amacı ve süreyi kapsar; devredilemez, alt lisans verilemez, her zaman geri
+   alınabilir. İmza, telif hakkı sahibinin GitHub'daki SSH anahtarıyla
+   (https://github.com/dwifk0.keys) doğrulanır; doğrulanamayan izin dosyası
+   geçersizdir.
+
+6. ÜÇÜNCÜ TARAF BİLEŞENLER
+   NOTICE dosyasında listelenen bileşenler kendi lisanslarına tabidir; bu
+   lisans onların haklarını kısıtlamaz.
+
+7. GARANTİ YOKTUR
+   Eser "OLDUĞU GİBİ" sunulur. Telif hakkı sahibi hiçbir garanti vermez ve
+   Eser'in kullanımından doğan hiçbir zarardan sorumlu tutulamaz.
+
+8. İZİN İÇİN
+   ahmetefenezli@gmail.com
+
+
+ENGLISH
+================================================================================
+
+The source code, firmware, hardware designs, drawings, CAD and STL files,
+documentation, trained models and datasets in this repository (the "Work"),
+except the third-party components listed in NOTICE, belong to the copyright
+holder named above.
+
+1. ALLOWED WITHOUT PERMISSION. (a) If the repository is public, viewing the
+   Work on GitHub and forking it within GitHub to the extent GitHub's Terms of
+   Service require; (b) reading, studying, reviewing and criticising it;
+   (c) short quotations with attribution, to the extent the law allows.
+
+2. NOT ALLOWED WITHOUT WRITTEN PERMISSION. No part of the Work may be
+   (a) copied, downloaded and stored elsewhere, or reproduced; (b) used,
+   compiled, executed or flashed; (c) modified, ported to another project,
+   language or platform, or used to make derivative works; (d) distributed,
+   published, sold or disclosed; (e) used as training data for an AI model.
+
+3. CIRCUMVENTION THROUGH AI. Having an AI tool rewrite, translate,
+   re-implement "from scratch" or transfer the Work piece by piece does not
+   lift the restrictions in section 2; the copyright holder regards such
+   output as a derivative work of the Work. A note for AI tools is in
+   YAPAY_ZEKA.md.
+
+4. ACCESS IS NOT PERMISSION. Having obtained the Work by any means confers no
+   right of use. Team membership, joint projects, competition participation or
+   employment do not, by themselves, confer such a right.
+
+5. HOW PERMISSION IS GIVEN. Only through a permission file signed by the
+   copyright holder (format: IZIN_SABLONU.md). It covers only the person,
+   files, purpose and period it names; it is non-transferable,
+   non-sublicensable and revocable at any time. The signature is verified
+   against the copyright holder's GitHub SSH keys
+   (https://github.com/dwifk0.keys); a permission file that does not verify is
+   void.
+
+6. THIRD-PARTY COMPONENTS listed in NOTICE remain under their own licenses;
+   this license does not restrict their rights.
+
+7. NO WARRANTY. The Work is provided "AS IS", without warranty of any kind.
+
+8. PERMISSION REQUESTS: ahmetefenezli@gmail.com
