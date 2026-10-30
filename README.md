@@ -11,6 +11,12 @@ gerçek zamanlı kontrol, emniyet mimarisi ve sensör entegrasyonu.
 bir otonom kara aracı ve bir hava savunma taret sistemi. Öncesinde dört yıl FLL
 ve FRC.
 
+> **English:** Electrical-electronics engineering student at Manisa Celal Bayar
+> University, working on board-level embedded systems — real-time control, safety
+> architecture and sensor integration. Embedded lead on a TEKNOFEST 2026 finalist
+> autonomous ground vehicle and on an air-defence turret. Every repository below has
+> an English README.
+
 ---
 
 ## Neler yaptım
@@ -39,29 +45,38 @@ arasındaki TCP köprüsünü, Kalman filtreli hedef takibini ve atış karar ma
 geliştirdim. Sistem, açılışta kendiliğinden ayağa kalkan üç systemd servisine
 bağlı olarak çalışıyor.
 
-### 🤖 BALROB — FIRST Robotics Competition
-**Elektronik-Gömülü Sistemler Sorumlusu** · 2020–2024
+### 🔭 Diğer açık depolar
+- **[`orbbec-gemini335l-ros2`](https://github.com/dwifk0/orbbec-gemini335l-ros2)** —
+  Orbbec Gemini 335L derinlik kamerasını WSL2, Jetson ve Raspberry Pi üzerinde ROS 2
+  ile çalıştırma kılavuzu: ölçümle doğrulanmış 12 gerçek sorun, nedeni ve çözümü.
+- **[`orientation-cube`](https://github.com/dwifk0/orientation-cube)** — ESP32 + BMI160
+  ile gerçek zamanlı yönelim ölçümü, tamamlayıcı filtre, mikrodenetleyicide 3B küp
+  çizimi ve masaüstünde koşan birim testler.
 
-Takımın elektronik altyapısını ve gömülü süreçlerini yönettim; RoboRIO
-entegrasyonu ve görev programlaması (C++ / Java), otonom kontrol algoritmaları.
+### 🤖 BALROB — FIRST Robotics (FRC #8555) ve FLL · lise, 2020–2024
+**Elektronik-Gömülü Sistemler Sorumlusu**
+
+FRC 2022 (RAPID REACT, İzmir Regional) robot kodunu Java/WPILib ile yazdım: NavX
+gyro, SparkMax asansör, top alma mekanizması ve otonom kip. FLL'de EV3 robotlarını
+gyro PID ile programladım. Takımın elektronik altyapısını ve RoboRIO entegrasyonunu
+yönettim.
 
 ---
 
 ## Çalıştığım katmanlar
 
+Yalnız açık depolarda kanıtı olanlar:
+
 ```
-uygulama    ROS 2 (Humble / Jazzy) · Nav2 · SLAM · EKF sensör füzyonu · Gazebo
-            Ackermann kinematiği · PyQt6 · web tabanlı operatör panoları
-yapay görü  YOLOv8 · OpenCV · Hailo NPU (Dataflow Compiler) · Kalman filtresi
-sistem      Ubuntu Linux · systemd · Docker · udev · DKMS
-            Jetson Orin Nano · Raspberry Pi 5
-firmware    STM32 (Nucleo-F767ZI, PlatformIO) · ESP32 / ESP32-S3 · Arduino
-            RoboRIO · kesme içinde gerçek zamanlı iş
-veriyolu    CAN · UART · I²C · SPI · RS485 / Modbus · PWM · iBUS · USB CDC
-donanım     step sürücü · BLDC · röle mantığı · şönt akım ölçümü · BMS
-            E-stop mimarisi · KiCAD · EasyEDA · Fritzing · Fusion 360
-dil         C · C++ · Python · Java · MATLAB
-öğreniyorum FPGA (Verilog / VHDL) · güvenli bootloader · FOC motor sürücü tasarımı
+firmware    STM32F767 (C++, PlatformIO) · ESP32-S3 · ESP32 · kesme içinde gerçek zamanlı iş
+            platformdan bağımsız karar çekirdeği + masaüstünde birim testler
+emniyet     iki kanallı donanım acil stop · kopuk kabloyu "basılı" okuyan mandal · güç kesme
+veriyolu    UART (8 baytlık özel protokol) · I²C · SPI · PWM · iBUS · USB CDC
+donanım     step sürücü (TB6600 / DM860) · şönt akım ölçümü (INA226) · BMS telemetrisi (BLE)
+sistem      Jetson Orin Nano · Raspberry Pi 5 · Ubuntu · systemd · udev · Docker · ROS 2 arayüzü
+yapay görü  YOLOv8 → Hailo-8L (Dataflow Compiler) · OpenCV
+araç        Python tezgah ve saha panoları · PyQt6 · Git
+öğreniyorum CAN · KiCad ile kart tasarımı · güvenli bootloader · FPGA (Verilog)
 ```
 
 ## Mühendislik yaklaşımım
