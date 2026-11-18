@@ -93,8 +93,9 @@ varsayılan davranış hâline getiririm.
 gerekçelerini yazılı tutarım; bir sistemin sürdürülebilirliği onu kuran kişiye
 bağımlı olmamalıdır.
 
-**Anlaşılırlık.** Teslim ettiğim kodun her satırının nasıl çalıştığını
-açıklayabilir olmayı çalışma şartı sayarım.
+**Anlaşılırlık.** Yapay zekâ araçlarını açıkça kullanırım (her depoda
+yazılı); teslim ettiğim kodun nasıl çalıştığını açıklayabilir olmayı çalışma
+şartı sayarım.
 
 ## İletişim
 
