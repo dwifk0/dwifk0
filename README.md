@@ -41,7 +41,7 @@ ESP32-S3 ana firmware'i: 50 kHz kesme içinde **DDS adım üreteciyle** pan-tilt
 hareketi, yasak alan kilidi, kopuk kabloyu "basılı" okuyan mandallı acil stop
 zinciri, güç tüketimi izleme. Raspberry Pi 5 ve Hailo-8L NPU üzerinde çalışan
 gerçek zamanlı tespit hattını kurdum. PyQt6 yer kontrol arayüzüyle taret
-arasındaki TCP köprüsünü, Kalman filtreli hedef takibini ve atış karar mantığını
+arasındaki TCP köprüsünü, görüntüden hedef takibini ve atış karar mantığını
 geliştirdim. Sistem, açılışta kendiliğinden ayağa kalkan üç systemd servisine
 bağlı olarak çalışıyor.
 
